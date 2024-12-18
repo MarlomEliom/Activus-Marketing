@@ -6,7 +6,7 @@ const WHATSAPP_LINK = "https://wa.me/5521986970434?text=Olá,%20tenho%20interess
 
 const Hero = () => {
   return (
-    <div id="home" className="relative min-h-screen flex items-center">
+    <div id="home" className="relative min-h-screen overflow-visible flex items-center">
       <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80')] bg-cover bg-center">
         <div className="absolute inset-0 bg-navy-900/80 backdrop-blur-sm"></div>
       </div>
@@ -28,9 +28,9 @@ const Hero = () => {
               <Rocket className="h-12 w-12 text-white" />
             </div>
           </motion.div>
-          <h1 className="text-4xl sm:text-6xl font-bold text-white mb-6">
+          <h1 className="text-4xl sm:text-6xl font-bold leading-[1.3] overflow-visible py-4 text-white mb-6">
             Aumente Seus Resultados com
-            <span className="block bg-gradient-to-r from-orange-500 via-pink-500 to-purple-500 text-transparent bg-clip-text">Marketing Digital Estratégico</span>
+            <span className="block bg-gradient-to-r from-orange-500 via-pink-500 to-purple-500 py-4 text-transparent bg-clip-text">Marketing Digital Estratégico</span>
           </h1>
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
             Transforme visitantes em clientes fiéis. Aumente sua visibilidade online e multiplique seus resultados com estratégias comprovadas de marketing digital.
@@ -54,7 +54,7 @@ const Hero = () => {
             transition={{ delay: 1 }}
             className="mt-6 text-gray-400"
           >
-            Mais de 100+ empresas já aumentaram seus resultados conosco
+            Esteja à frente da concorrência como nossos clientes estão
           </motion.p>
         </motion.div>
       </div>

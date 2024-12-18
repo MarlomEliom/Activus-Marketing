@@ -1,37 +1,37 @@
 import React from 'react';
-import { Rocket, Palette, Globe, TrendingUp, Users, MessageSquare } from 'lucide-react';
+import { Video, MonitorPlay, Layout, TrendingUp, Users, Target } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const services = [
   {
-    icon: <Rocket />,
-    title: 'Estratégia Digital',
-    description: 'Lance sua marca com estratégias baseadas em dados que impulsionam o crescimento.'
+    icon: <Target />,
+    title: 'Anúncios Online',
+    description: 'Campanhas de anúncios otimizadas para gerar máxima conversão e retorno sobre investimento (ROI).'
   },
   {
-    icon: <Palette />,
-    title: 'Design de Marca',
-    description: 'Crie identidades visuais impressionantes que capturam a essência da sua marca.'
+    icon: <Video />,
+    title: 'Produção de Vídeos Profissionais',
+    description: 'Videomaker especializado para criar conteúdos visuais de alto impacto que destacam sua marca.'
   },
   {
-    icon: <Globe />,
-    title: 'Desenvolvimento Web',
-    description: 'Construa websites modernos e responsivos que convertem visitantes em clientes.'
+    icon: <Layout />,
+    title: 'Design Gráfico',
+    description: 'Identidades visuais criativas e designs que comunicam profissionalismo e atraem seu público.'
+  },
+  {
+    icon: <MonitorPlay />,
+    title: 'Gestão de Redes Sociais',
+    description: 'Criação e gestão estratégica para engajar seu público nas principais plataformas digitais.'
   },
   {
     icon: <TrendingUp />,
-    title: 'Otimização SEO',
-    description: 'Aumente sua visibilidade e alcance melhores posições nos resultados de busca.'
+    title: 'Estratégia de Performance',
+    description: 'Acompanhamento e otimização contínua para resultados reais e mensuráveis.'
   },
   {
     icon: <Users />,
-    title: 'Mídia Social',
-    description: 'Engaje seu público e construa conexões significativas.'
-  },
-  {
-    icon: <MessageSquare />,
-    title: 'Marketing de Conteúdo',
-    description: 'Conte sua história através de conteúdo envolvente que ressoa com seu público.'
+    title: 'Consultoria Digital',
+    description: 'Orientação especializada para alavancar seus resultados através de estratégias digitais eficazes.'
   }
 ];
 
@@ -48,7 +48,7 @@ const Services = () => {
         >
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">Nossos Serviços</h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            Descubra como podemos transformar sua presença digital com nosso conjunto abrangente de serviços.
+            Soluções completas de anúncios, vídeos e design para impulsionar sua marca no mundo digital.
           </p>
         </motion.div>
         

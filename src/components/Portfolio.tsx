@@ -4,22 +4,22 @@ import { motion } from 'framer-motion';
 
 const projects = [
   {
-    title: 'Campanha Digital - E-commerce',
-    category: 'ROI: 300%',
-    image: 'https://images.unsplash.com/photo-1607083206869-4c7672e72a8a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1080&q=80',
-    results: 'Aumento de 150% nas vendas em 3 meses'
+    title: 'Tráfego Pago - Video Maker + Modelo',
+    category: 'Visualizações: 300%',
+    image: 'https://i.imgur.com/nkzDY24.png',
+    results: 'Triplicamos o número de visualizações em menos de 2 meses'
   },
   {
-    title: 'Marketing B2B - Tech',
-    category: 'ROI: 250%',
-    image: 'https://images.unsplash.com/photo-1560439514-4e9645039924?ixlib=rb-1.2.1&auto=format&fit=crop&w=1080&q=80',
-    results: '200+ leads qualificados por mês'
+    title: 'Tráfego Pago - Videomaker',
+    category: 'Aumento de Mensagens',
+    image: 'https://i.imgur.com/taLzXyP.png',
+    results: 'De um whatsapp parado para quase 50 mensagens a mais'
   },
   {
-    title: 'Branding Digital - Startup',
-    category: 'ROI: 400%',
-    image: 'https://images.unsplash.com/photo-1661956602116-aa6865609028?ixlib=rb-1.2.1&auto=format&fit=crop&w=1080&q=80',
-    results: 'Crescimento de 200% em reconhecimento de marca'
+    title: 'Serviço de Design',
+    category: 'Faturamento: +200%',
+    image: 'https://i.imgur.com/wCuIBaO.png',
+    results: 'Mais que dobrou o faturamento'
   },
 ];
 
